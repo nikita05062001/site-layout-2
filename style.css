@@ -1,0 +1,306 @@
+body {
+  margin: 0, 0;
+  font-family: Gilroy-Medium;
+}
+.container {
+  margin: 0 auto;
+  max-width: 944px;
+}
+.navigation_header {
+  display: flex;
+  justify-content: space-between;
+  font-family: Gilroy-Bold;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.navigation {
+  color: #828282;
+}
+.header_line {
+  border: 1px solid #828282;
+  margin-top: 32px;
+  opacity: 50%;
+  background-color: #828282;
+}
+.denis_novik {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 37px;
+}
+.denis_novik-name {
+  font-family: Gilroy-Bold;
+  font-size: 47.3392px;
+  line-height: 59px;
+}
+.denis_novik-info {
+  margin-top: 57px;
+  font-size: 18px;
+  line-height: 22px;
+}
+.denis_novik-language {
+  transform: rotate(-90deg);
+
+  /* padding-right: 70px; */
+  padding-top: 73px;
+  color: #828282;
+}
+.denis_novik-language-eng {
+  font-family: Gilroy-Bold;
+  color: black;
+}
+.denis_novik-img {
+  margin-top: 31px;
+  background: #ffffff url(img/Denis.jpg) center no-repeat;
+  background-size: cover;
+  height: 387px;
+}
+.about {
+  text-align: center;
+  background-color: #f6f6f6;
+  margin-top: 105px;
+}
+.about_main {
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  padding-top: 120px;
+}
+.about_description {
+  max-width: 485px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 67px;
+  line-height: 22px;
+  font-size: 18px;
+}
+.br_interval {
+  padding-bottom: 40px;
+}
+.skills_main {
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  padding-top: 91px;
+  text-align: center;
+}
+.skills-description {
+  margin-top: 69px;
+  margin-bottom: 83px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  /* Black */
+
+  color: #070707;
+}
+.skills_info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skills_container {
+  width: 25%;
+  text-align: center;
+}
+.skills_programm {
+  width: 90px;
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin: 0 auto;
+  margin-top: 24px;
+  padding-bottom: 40px;
+}
+.skills_star-img {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-right: 40px;
+}
+.skills_star-img-last {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.skills_star-img-fill {
+  margin: 0 9px;
+}
+.skills_star-img-nofill {
+  margin: 0 9px;
+}
+.skills_star-img-nofill:last-of-type {
+  margin-left: 9px;
+  margin-right: 0px;
+}
+.portfolio {
+  background-color: #f6f6f6;
+  padding-bottom: 96px;
+}
+.portfolio-title {
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  padding-top: 112px;
+}
+.portfolio_work-description {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  margin-top: 45px;
+}
+.portfolio_work-img img {
+  margin-top: 100px;
+  width: 100%;
+}
+.portfolio_work-img:first {
+  margin-top: 47px;
+}
+.contact_title {
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  margin-top: 114px;
+}
+.contact-description {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 275px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+.contact-button {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 42px;
+}
+.button-contact {
+  background-color: black;
+  color: #f6f6f6;
+  border-radius: 25px;
+  padding: 12px 29px;
+  cursor: pointer;
+
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+.contact-messanger {
+  margin-top: 85px;
+  display: flex;
+  justify-content: center;
+}
+.contact-messanger-ico {
+  margin: 0 30px;
+}
+.contact-text {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin-top: 45px;
+  margin-bottom: 123px;
+}
+.burger {
+  padding: 9px 2px 15px 2px;
+  height: 0px;
+  cursor: pointer;
+  z-index: 10;
+  margin: 15px;
+}
+.burger-menu {
+  font-size: 0;
+  color: unset;
+  width: 33px;
+  height: 4px;
+  background-color: black;
+  display: none;
+  position: relative;
+  border: 0;
+  padding: 0px;
+  cursor: pointer;
+}
+.burger-menu::before {
+  content: "";
+  font-size: 0;
+  color: unset;
+  width: 33px;
+  height: 4px;
+  background-color: black;
+  position: absolute;
+  top: -8px;
+  right: 0px;
+  cursor: pointer;
+}
+.burger-menu::after {
+  content: "";
+  font-size: 0;
+  color: unset;
+  width: 33px;
+  height: 4px;
+  background-color: black;
+  position: absolute;
+  bottom: -8px;
+  right: 0px;
+  cursor: pointer;
+}
+
+@media (max-width: 960px) {
+  .skills_container {
+    width: 34%;
+  }
+}
+@media (max-width: 660px) {
+  .skills_container {
+    width: 51%;
+  }
+  .denis_novik-info {
+    width: 100%;
+  }
+  .denis_novik {
+    flex-wrap: wrap;
+    margin-left: 5%;
+  }
+  .denis_novik-name {
+    width: 50%;
+  }
+  .denis_novik-language {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .denis_novik-img {
+    background: url(img/Denis-Adaptiv.jpg) no-repeat center;
+    width: 100%;
+    height: 487px;
+  }
+  .skills_star-img {
+    margin-right: 0px;
+  }
+  header {
+    display: none;
+  }
+  .skills_star-img-nofill {
+    margin: 0 0;
+  }
+}
+
+@media (max-width: 407px) {
+  .skills_container {
+    width: 75%;
+  }
+}
